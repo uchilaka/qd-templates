@@ -1,0 +1,25 @@
+<!-- teacher-request-view.html -->
+<div class="ui attached menu">
+    <div class="item header">Example Subject Title</div>
+</div>
+
+<table class="ui basic table attached">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Topic</th>
+            <th>Time in Queue</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="data in requests">
+            <td>{{data.studentName}}</td>
+            <td>{{data.topic}}</td>
+            <td>{{data.timeInQueue}}</td>
+            <td>
+                <button type="button">Respond</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

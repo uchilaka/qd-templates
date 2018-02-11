@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "photo_url": "https://semantic-ui.com/images/avatar2/small/lena.png"
+        },
+        {
+            "photo_url": "https://semantic-ui.com/images/avatar2/small/matthew.png"
+        },
+        {
+            "photo_url": "https://semantic-ui.com/images/avatar2/small/lindsay.png"
+        },
+        {
+            "photo_url": "https://semantic-ui.com/images/avatar2/small/mark.png"
+        }
+    ]
+}

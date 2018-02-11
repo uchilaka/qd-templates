@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queued</title>
+    <link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.min.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body ng-app="QueuedApp">
+    <div id="topnav" class="ui inverted attached huge menu">
+        <a href="/" class="item header">Queued</a>
+        <div class="item">Subject Here</div>
+        <a href="#!/teacher/requests" class="item">Requests</a>
+    </div>
+
+    <div ng-controller="Main">
+        <div ng-view></div>
+    </div>
+
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

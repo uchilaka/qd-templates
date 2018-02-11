@@ -1,0 +1,46 @@
+<!-- 01-teacher.html -->
+
+<div class="ui stackable fluid grid">
+
+    <div class="eight wide column">
+
+        <div class="ui attached menu">
+            <div class="item header">Threads</div>
+        </div>
+
+        <div class="ui attached grid">
+            <a ng-repeat="s in subjects" href="#!/teacher/{{s.tag}}/requests">
+                <div class="four wide column">
+                    {{s.title}}
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="eight wide column">
+
+        <div class="ui attached menu">
+            <div class="item header">Requests</div>
+        </div>
+
+        <table class="ui basic table attached">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Topic</th>
+                    <th>Time in Queue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="data in requests">
+                    <td>{{data.studentName}}</td>
+                    <td>{{data.topic}}</td>
+                    <td>{{data.timeInQueue}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</div>

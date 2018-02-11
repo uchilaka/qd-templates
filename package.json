@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "angular-sanitize": "^1.6.9",
+    "semantic-ui-css": "^2.2.14"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
